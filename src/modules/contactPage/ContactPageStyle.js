@@ -33,7 +33,7 @@ export const CP = {
         flex: '1',
         alignItems: 'center',
         justifyContent: 'center',
-        minWidth: '330px',
+        minWidth: '320px',
         margin:'16px 0px'
     })),
     ContactInputs: styled('div')(() => ({
@@ -41,7 +41,8 @@ export const CP = {
         flex: '1.5',
         alignItems: 'center',
         justifyContent: 'center',
-        minWidth: '330px',
+        minWidth: '320px',
+        margin:'0 8px'
     })),
     Inputs: styled('div')(() => ({
         width: '500px',
