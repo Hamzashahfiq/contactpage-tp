@@ -9,7 +9,8 @@ export const CP = {
     })),
     LogoDiv: styled('div')(() => ({
         flex:1,
-        background: 'linear-gradient(to left,#24c6dc, #514a9d)',
+        backgroundColor:'#5003b7',
+        //background: 'linear-gradient(to left,#24c6dc, #514a9d)',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -32,7 +33,7 @@ export const CP = {
         flex: '1',
         alignItems: 'center',
         justifyContent: 'center',
-        minWidth: '350px',
+        minWidth: '330px',
         margin:'16px 0px'
     })),
     ContactInputs: styled('div')(() => ({
@@ -40,7 +41,7 @@ export const CP = {
         flex: '1.5',
         alignItems: 'center',
         justifyContent: 'center',
-        minWidth: '350px',
+        minWidth: '330px',
     })),
     Inputs: styled('div')(() => ({
         width: '500px',
